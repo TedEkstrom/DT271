@@ -2,7 +2,7 @@
 FROM weibeld/ubuntu-networking
 
 RUN apt-get update && \
-      apt-get -y install sudo
+      apt-get -y install sudo lshw
 
 RUN useradd -m docker && echo "docker:docker" | chpasswd && adduser docker sudo # Password : docker
 
