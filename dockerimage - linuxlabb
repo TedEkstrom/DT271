@@ -1,3 +1,4 @@
+# https://stackoverflow.com/questions/25845538/how-to-use-sudo-inside-a-docker-container
 FROM weibeld/ubuntu-networking
 
 RUN apt-get update && \
