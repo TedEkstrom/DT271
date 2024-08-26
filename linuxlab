@@ -1,0 +1,25 @@
+Labb
+1. log in to computer with ssh
+2. start docker : docker run -it ubuntu bash
+3. run : ip a
+4. ping local ip and google.se
+5. run ls
+6. change dirctory to your home folder
+7. create new dirctory file : mkdir test
+8. run ls : Check if new directory showing.
+9. create new textfile with vim and save (vim test.txt -> save :w -> :q
+10. show text with cat : cat test.txt
+11. remove test.txt
+12. show 
+13. show a log file in /var/log/dpkg.log
+14. show only the last entry (tail)
+15. show the first entry (head)
+16. show the hardware with lshw
+17. show entrys whish start with AMD.
+18. download script from github wget https://raw.githubusercontent.com/TedEkstrom/DT271/main/simpleCalculator
+19. run script with ./simpleCalculator
+20. run ls -l simpleCalculator
+21. run chmod +x simpleCalculator
+22. show script
+23. make a change in script and save
+24. run it again.
