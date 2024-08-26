@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Simple Calculator"
+
+read -p "Enter a number:" a
+read -p "Enter a second number:" b
+
+echo "$a plus $b is equal $(($a+$b))"
+
+
+
+
+
+
+
+
+
+
