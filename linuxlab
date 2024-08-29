@@ -1,4 +1,5 @@
 Labb
+0. Ladda ner VPN-klient och starta VPN.
 1. log in to computer with ssh
 2. start docker : docker run -it ubuntu bash
 3. run : ip a
