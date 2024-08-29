@@ -1,6 +1,6 @@
 
 Att tänka på:
-Det finns en gräns på ssh med 128 samtidiga (tcp begränsning). Med för många kan systemet bli långsamare.
+Det finns en gräns på ssh med 128 samtidiga (tcp begränsning). Med för många kan även systemet bli långsamare - förväntat!
 
 Notering:
 Jag har lagt till om att installera wget.
