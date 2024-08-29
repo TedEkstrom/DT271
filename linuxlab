@@ -16,7 +16,7 @@ Labb
 14. show only the last entry (tail)
 15. show the first entry (head)
 16. show the hardware with lshw
-17. show entrys whish start with AMD.
+17. show entrys which start with AMD.
 18. download script from github wget https://raw.githubusercontent.com/TedEkstrom/DT271/main/simpleCalculator
 19. run script with ./simpleCalculator
 20. run ls -l simpleCalculator
