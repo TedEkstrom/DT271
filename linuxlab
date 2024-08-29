@@ -22,6 +22,6 @@ Labb
 20. run script with ./simpleCalculator
 21. run ls -l simpleCalculator
 22. run chmod +x simpleCalculator
-23. show script
+23. list script again (ls)
 24. make a change in script and save
 25. run it again.
