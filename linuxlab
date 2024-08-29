@@ -7,8 +7,8 @@ Labb
 5. run ls
 6. change dirctory to your home folder
 7. create new dirctory: mkdir test
-8. run ls : Check if new directory showing.
-9. create new textfile with vim and save (vim test.txt -> save :w -> :q
+8. run ls : Check if new directory is showing.
+9. create a new textfile with vim and save (vim test.txt -> save :w -> :q
 10. show text with cat : cat test.txt
 11. remove test.txt
 12. show 
