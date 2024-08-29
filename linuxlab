@@ -11,7 +11,7 @@ Labb
 9. create a new textfile with vim and save (vim test.txt -> save :w -> :q
 10. show text with cat : cat test.txt
 11. remove test.txt
-12. show 
+12. list directory again (ls)
 13. show a log file in /var/log/dpkg.log
 14. show only the last entry (tail)
 15. show the first entry (head)
