@@ -17,7 +17,7 @@ Labb
 15. show the first entry (head)
 16. show the hardware with lshw
 17. show entrys which start with AMD.
-18. download wget - sudo apt install wget (new!)
+18. download wget - sudo apt install wget (newly added!)
 19. download script from github wget https://raw.githubusercontent.com/TedEkstrom/DT271/main/simpleCalculator
 20. run script with ./simpleCalculator
 21. run ls -l simpleCalculator
