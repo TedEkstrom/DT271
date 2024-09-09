@@ -1,0 +1,111 @@
+Självklart! Här är en mer detaljerad introduktion och uppdelning av labben i fyra uppgifter:
+
+### Introduktion
+I denna labb kommer du att utföra en serie uppgifter som hjälper dig att bekanta dig med grundläggande nätverks- och filhanteringskommandon i en Linux-miljö. Du kommer att använda verktyg som VPN, SSH, Docker, och olika Linux-kommandon för att navigera och manipulera filer och kataloger. Varje uppgift innehåller en förklaring till varför den utförs och vad du ska tänka på.
+
+### Uppgift 1: Anslutning och Förberedelse
+1. **Ladda ner VPN-klient och starta VPN.**
+   - **Varför:** För att säkerställa en säker anslutning till nätverket.
+   - **Tänk på:** Kontrollera att VPN-anslutningen är stabil innan du fortsätter.
+
+2. **Logga in på datorn med SSH.**
+   - **Varför:** För att fjärransluta till en server eller dator.
+   - **Tänk på:** Använd rätt användarnamn och lösenord, och se till att SSH-tjänsten är aktiverad på måldatorn.
+
+### Uppgift 2: Docker och Nätverkskontroll
+3. **Starta Docker: `docker run -it ubuntu bash`.**
+   - **Varför:** För att skapa och köra en isolerad Ubuntu-miljö.
+   - **Tänk på:** Se till att Docker är installerat och att du har nödvändiga rättigheter för att köra Docker-kommandon.
+
+4. **Kör `ip a`.**
+   - **Varför:** För att visa nätverksgränssnitt och IP-adresser.
+   - **Tänk på:** Kontrollera att du har rätt nätverkskonfiguration.
+
+5. **Ping lokalt IP och google.se.**
+   - **Varför:** För att testa nätverksanslutningen.
+   - **Tänk på:** Om ping misslyckas, kontrollera nätverksinställningarna och VPN-anslutningen.
+
+### Uppgift 3: Filhantering och Redigering
+6. **Kör `ls`.**
+   - **Varför:** För att lista filer och kataloger i den aktuella katalogen.
+   - **Tänk på:** Bekräfta att du är i rätt katalog.
+
+7. **Byt katalog till din hemkatalog: `cd ~`.**
+   - **Varför:** För att arbeta i din användares hemkatalog.
+   - **Tänk på:** Använd `pwd` för att verifiera att du är i rätt katalog.
+
+8. **Skapa en ny katalog: `mkdir test`.**
+   - **Varför:** För att skapa en ny arbetskatalog.
+   - **Tänk på:** Kontrollera att katalogen skapades korrekt med `ls`.
+
+9. **Skapa en ny textfil med vim och spara: `vim test.txt` -> spara `:w` -> avsluta `:q`.**
+   - **Varför:** För att skapa och redigera textfiler.
+   - **Tänk på:** Bekanta dig med vim-kommandon för att undvika misstag.
+
+### Uppgift 4: Filhantering och Systeminformation
+10. **Visa texten med `cat`: `cat test.txt`.**
+    - **Varför:** För att visa innehållet i en fil.
+    - **Tänk på:** Kontrollera att filen innehåller rätt information.
+
+11. **Ta bort `test.txt`.**
+    - **Varför:** För att radera en fil.
+    - **Tänk på:** Bekräfta att filen är borttagen med `ls`.
+
+12. **Lista katalogen igen (`ls`).**
+    - **Varför:** För att verifiera att filen är borttagen.
+    - **Tänk på:** Kontrollera att katalogen är tom eller att filen inte längre finns där.
+
+13. **Visa en loggfil i `/var/log/dpkg.log`.**
+    - **Varför:** För att granska systemloggar.
+    - **Tänk på:** Använd `sudo` om du inte har tillräckliga rättigheter.
+
+14. **Visa endast den sista posten (`tail`).**
+    - **Varför:** För att snabbt se de senaste loggposterna.
+    - **Tänk på:** Använd `tail -n 1` för att visa endast den sista raden.
+
+15. **Visa den första posten (`head`).**
+    - **Varför:** För att snabbt se de första loggposterna.
+    - **Tänk på:** Använd `head -n 1` för att visa endast den första raden.
+
+16. **Visa hårdvaruinformation med `lshw`.**
+    - **Varför:** För att få detaljerad information om systemets hårdvara.
+    - **Tänk på:** Använd `sudo` om du inte har tillräckliga rättigheter.
+
+17. **Visa poster som börjar med AMD.**
+    - **Varför:** För att filtrera specifik information.
+    - **Tänk på:** Använd `grep` för att söka efter specifika mönster.
+
+### Extra Uppgifter
+18. **Installera wget: `sudo apt install wget`.**
+    - **Varför:** För att kunna ladda ner filer från internet.
+    - **Tänk på:** Bekräfta installationen med `wget --version`.
+
+19. **Ladda ner ett skript från GitHub: `wget https://raw.githubusercontent.com/TedEkstrom/DT271/main/simpleCalculator`.**
+    - **Varför:** För att hämta ett externt skript.
+    - **Tänk på:** Kontrollera att filen laddades ner korrekt.
+
+20. **Kör skriptet med `./simpleCalculator`.**
+    - **Varför:** För att köra det nedladdade skriptet.
+    - **Tänk på:** Se till att filen har körbara rättigheter.
+
+21. **Visa detaljerad information om skriptet med `ls -l simpleCalculator`.**
+    - **Varför:** För att se filens rättigheter och ägare.
+    - **Tänk på:** Kontrollera att filen har rätt behörigheter.
+
+22. **Ge skriptet körbara rättigheter: `chmod +x simpleCalculator`.**
+    - **Varför:** För att göra skriptet körbart.
+    - **Tänk på:** Bekräfta ändringen med `ls -l`.
+
+23. **Lista skriptet igen (`ls`).**
+    - **Varför:** För att verifiera att rättigheterna har ändrats.
+    - **Tänk på:** Kontrollera att filen nu är körbar.
+
+24. **Gör en ändring i skriptet och spara.**
+    - **Varför:** För att uppdatera skriptet.
+    - **Tänk på:** Använd en textredigerare som vim eller nano.
+
+25. **Kör skriptet igen.**
+    - **Varför:** För att verifiera att ändringarna fungerar.
+    - **Tänk på:** Kontrollera att skriptet körs utan fel.
+
+Lycka till med labben! Om du har några frågor eller behöver ytterligare hjälp, tveka inte att fråga. 😊
